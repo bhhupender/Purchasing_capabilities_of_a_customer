@@ -1,0 +1,27 @@
+2024-12-05 16:02:20,144 - INFO - Loading the trained next purchase prediction model...
+2024-12-05 16:02:20,144 - ERROR - Error occurred: [Errno 2] No such file or directory: '../model/next_purchase_model.pkl'
+2024-12-05 16:03:48,676 - INFO - Loading the trained next purchase prediction model...
+2024-12-05 16:03:49,219 - INFO - Loading test data...
+2024-12-05 16:03:49,277 - INFO - Test data loaded with 10000 records.
+2024-12-05 16:03:49,277 - INFO - Making predictions on test data...
+2024-12-05 16:03:49,404 - INFO - Mean Absolute Error (MAE): 109.03482650000001
+2024-12-05 16:03:49,405 - INFO - Mean Squared Error (MSE): 17571.762344207502
+2024-12-05 16:03:49,405 - INFO - R-squared Score: -0.6325367257935945
+2024-12-05 16:19:51,814 - INFO - Loading the trained next purchase prediction model...
+2024-12-05 16:19:52,315 - INFO - Loading test data...
+2024-12-05 16:19:52,350 - INFO - Test data loaded with 10000 records.
+2024-12-05 16:19:52,350 - INFO - Making predictions on test data...
+2024-12-05 16:19:52,464 - INFO - Mean Absolute Error (MAE): 109.03482650000001
+2024-12-05 16:19:52,464 - INFO - Mean Squared Error (MSE): 17571.762344207502
+2024-12-05 16:19:52,464 - INFO - R-squared Score: -0.6325367257935945
+2024-12-05 16:19:52,464 - INFO - Logging sample predictions...
+2024-12-05 16:19:52,464 - DEBUG - Prediction 1: 182.0, Actual: 335
+2024-12-05 16:19:52,464 - DEBUG - Prediction 2: 105.0, Actual: 94
+2024-12-05 16:19:52,464 - DEBUG - Prediction 3: 30.0, Actual: 231
+2024-12-05 16:19:52,464 - DEBUG - Prediction 4: 257.5, Actual: 57
+2024-12-05 16:19:52,464 - DEBUG - Prediction 5: 240.89, Actual: 298
+2024-12-05 16:19:52,464 - DEBUG - Prediction 6: 225.5, Actual: 339
+2024-12-05 16:19:52,464 - DEBUG - Prediction 7: 75.5, Actual: 82
+2024-12-05 16:19:52,464 - DEBUG - Prediction 8: 150.5, Actual: 211
+2024-12-05 16:19:52,464 - DEBUG - Prediction 9: 257.5, Actual: 14
+2024-12-05 16:19:52,464 - DEBUG - Prediction 10: 165.0, Actual: 66

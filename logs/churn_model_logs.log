@@ -1,0 +1,42 @@
+2024-12-05 15:21:43,429 - INFO - Loading the trained churn prediction model...
+2024-12-05 15:21:43,945 - INFO - Loading test data...
+2024-12-05 15:21:43,945 - ERROR - Error occurred: [Errno 2] No such file or directory: '../data/test_data.csv'
+2024-12-05 15:24:51,204 - INFO - Loading the trained churn prediction model...
+2024-12-05 15:24:51,504 - INFO - Loading test data...
+2024-12-05 15:24:51,574 - ERROR - Error occurred: "['Churn'] not found in axis"
+2024-12-05 15:33:33,145 - INFO - Loading the trained churn prediction model...
+2024-12-05 15:33:33,670 - INFO - Loading test data...
+2024-12-05 15:33:33,718 - INFO - Test data loaded with 1000 records.
+2024-12-05 15:33:33,718 - INFO - Making predictions on test data...
+2024-12-05 15:33:33,768 - INFO - Accuracy: 0.505
+2024-12-05 15:33:33,768 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.52      0.25      0.33       506
+           1       0.50      0.77      0.61       494
+
+    accuracy                           0.51      1000
+   macro avg       0.51      0.51      0.47      1000
+weighted avg       0.51      0.51      0.47      1000
+
+2024-12-05 15:33:33,768 - INFO - AUC Score: 0.5065049367108864
+2024-12-05 15:33:33,768 - INFO - Evaluating clustering using Silhouette Score...
+2024-12-05 15:33:33,868 - INFO - Silhouette Score: 0.008059824120957938
+2024-12-05 15:35:40,030 - INFO - Loading the trained churn prediction model...
+2024-12-05 15:35:40,331 - INFO - Loading test data...
+2024-12-05 15:35:40,362 - INFO - Test data loaded with 10000 records.
+2024-12-05 15:35:40,362 - INFO - Making predictions on test data...
+2024-12-05 15:35:40,500 - INFO - Accuracy: 0.5065
+2024-12-05 15:35:40,500 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.25      0.33      4913
+           1       0.51      0.76      0.61      5087
+
+    accuracy                           0.51     10000
+   macro avg       0.50      0.50      0.47     10000
+weighted avg       0.50      0.51      0.47     10000
+
+2024-12-05 15:35:40,500 - INFO - AUC Score: 0.501771276271604
+2024-12-05 15:35:40,500 - INFO - Evaluating clustering using Silhouette Score...
+2024-12-05 15:35:45,489 - INFO - Silhouette Score: 0.005056368660218093
